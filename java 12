@@ -1,0 +1,11 @@
+public class java12 {
+   
+    public static final double PI = 3.14;
+    public static final double GOLDEN_RATIO = 1.62;
+
+    public static void main(String[] args) {
+        // Print the values of the constants
+        System.out.println("The value of pi: " + PI);
+        System.out.println("The value of golden ratio: " + GOLDEN_RATIO);
+    }
+}
