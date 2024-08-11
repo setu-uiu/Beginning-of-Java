@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class java8 {
+    public static void main(String args[])
+    {
+        Scanner scr=new Scanner(System.in);
+        int a=scr.nextInt();
+        int b=scr.nextInt();
+        int c=scr.nextInt();
+
+        System.out.println("First Number is "+a);
+
+        System.out.println("Last Number is "+c);
+
+    }
+
+}
