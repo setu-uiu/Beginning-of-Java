@@ -1,0 +1,14 @@
+public class java14 {
+        // Global variable
+        static int value = 10;
+
+        public static void main(String[] args) {
+
+            System.out.println("A. Global: " + value);
+
+            int value = 20;
+
+            System.out.println("B. Local: " + value);
+            System.out.println("C. Global: " + java14.value);
+        }
+    }
