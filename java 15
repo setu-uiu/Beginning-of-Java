@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+    public class java15 {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.print("Enter a floating-point number: ");
+            float num = scanner.nextFloat();
+
+            System.out.printf("(a) Val:%10f\n", num);
+
+            System.out.printf("(b) Val:%2f\n", num);
+
+            System.out.printf("(c) Val:%.2f\n", num);
+
+            System.out.printf("(d) Val:%.0f\n", num);
+
+            System.out.printf("(e) Val:%e\n", num);
+
+        }
+    }
+
