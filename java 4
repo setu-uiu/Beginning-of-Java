@@ -1,0 +1,10 @@
+public class java4 {
+    public static void main(String[] args) {
+        int a = 5;
+        float b = 3.141593F;
+        char c = 'a';
+        System.out.println("The integer value: "+a);
+        System.out.println("The floating point value: "+b);
+        System.out.println("The character value: "+c);
+    }
+}
