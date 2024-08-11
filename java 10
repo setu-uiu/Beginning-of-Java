@@ -1,0 +1,22 @@
+public class java10 {
+    public static void main(String args[]){
+
+        long a=2147483647;
+        long b=9223372036854775807L;
+        double c = 1.1E+49;
+        short d=32767;
+
+        System.out.println("The long int value:"+a);
+
+        System.out.println("The long long int value:"+b);
+
+        System.out.println("The long double value:"+c);
+
+        System.out.println("The short int value:"+d);
+
+
+  }
+
+
+
+}
